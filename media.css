@@ -17,17 +17,29 @@
         width: 0%;
         transition: .5s;
     }
+    .intro-text,.work-text{
+        font-size: 100px;
+        display: none;
+    }
+    .real-right {
+        margin: 0 0 0 0%;
+    }
     .main-right{
         width: 100%;
         margin-left: 0;
+        overflow-x: hidden;
     }
     .html::before {
         color:#05fdd8;
     }
 }
 @media only screen and (max-width: 500px){
+    .main{
+        overflow-x: hidden;
+    }
     .main-right {
         padding: 10px 10px 30px 10px;
+        width: 100%;
     }
     .blast {
         font-size: 40px;
@@ -46,7 +58,13 @@
         height: 60px ;
         /* padding: 10px 0; */
     }
-
+   
+    .real-right {
+        margin: 0 0 0 0%;
+    }
+    .about-para {
+        width: 85%;
+    }
 }
 @media only screen and (max-width: 380px){
     .blast {
