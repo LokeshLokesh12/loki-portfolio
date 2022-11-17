@@ -11,7 +11,7 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-wrap: hidden !important; */
 
 }
 html{
@@ -100,12 +100,15 @@ i:hover{
 
 
 .main-right{
-    width: 90%;
+    width: 100%;
     background-color: #1d1d1d;
     min-height: 100vh;
     max-height: auto;
-    margin:0 0 0 10%;
+    /* margin:0 0 0 10%; */
     padding: 50px 20px 60px 50px;
+}
+.real-right{
+    margin: 0 0 0 10%;
 }
 .html::before{
     content:"</head>" ;
@@ -268,10 +271,12 @@ i:hover{
     color: #fff;
     opacity: 0.1;
     isolation: isolate;
-    font-size: 240px;
+    font-size: 250px;
     font-family: 'Times New Roman', Times, serif;
     top: 30%;
-    left: 60%;
+    left: 45%;
+    letter-spacing: 10px;
+    filter: blur(2px);
     transform: rotate(-40deg);
     /* overflow-x: hidden; */
 }
@@ -285,8 +290,11 @@ i:hover{
     font-size: 240px;
     font-family: 'Times New Roman', Times, serif;
     top: 30%;
-    left: 50%;
+    left: 45%;
+    /* left: 50%; */
     transform: rotate(-40deg);
+    filter: blur(2px);
+
     /* overflow-x: hidden; */
 }
 .about-para{
