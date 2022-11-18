@@ -31,11 +31,12 @@ gsap.from('.dev-til', {
 gsap.from('.contact-but', {
     duration: 0.5,
     opacity:0,
+    // x:150,
     delay:1.5
 
 })
 gsap.from('.blas', {
-    duration: 1,
+    duration: 2,
     opacity:0,
     stagger:0.1,
     delay:0.2,
@@ -44,7 +45,7 @@ gsap.from('.blas', {
 gsap.from('.about-para', {
     duration: 1,
     opacity:0,
-    x:-50,
+    x:-70,
     stagger:0.1,
     delay:0.2,
     scrollTrigger:".about-para"
