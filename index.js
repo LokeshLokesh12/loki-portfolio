@@ -7,7 +7,7 @@ let intro = document.querySelector('.intro-container')
     // console.log(event);
 
     // console.log(target.tagName);
-    if(target.className != "intro-container" && target.tagName != "IMG"){
+    if(target.className != "intro-container" ){
         target.classList.add('rubberBand');
         target.classList.add('animated');
     
@@ -22,4 +22,4 @@ let intro = document.querySelector('.intro-container')
 
 
 
-
+// && target.tagName != "IMG"
