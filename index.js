@@ -18,8 +18,15 @@ let intro = document.querySelector('.intro-container')
     }
 })
 
+// let cursor = document.querySelector("#cursor")
+// let body = document.querySelector("body")
+
+// body.addEventListener('mousemove',(e)=>{
+
+//     cursor.style.top = `${e.clientY}px`;
+//     cursor.style.left = `${e.clientX}px`;
+// })
 
 
 
 
-// && target.tagName != "IMG"

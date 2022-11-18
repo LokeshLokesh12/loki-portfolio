@@ -58,3 +58,4 @@ gsap.from('.box', {
     scrollTrigger:".box"
 
 })
+
