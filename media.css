@@ -81,8 +81,13 @@
 }
 @media only screen and (max-width: 380px){
     .blast,.blas {
-        font-size: 35px;
+        font-size: 30px;
         letter-spacing: -10px;
+    }
+    .l-gli {
+        width: 90px;
+        height: 90px;
+        margin: -40PX -25PX -2PX 0;
     }
 }
 @media only screen and (max-width: 330px){

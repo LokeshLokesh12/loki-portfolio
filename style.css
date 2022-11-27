@@ -47,7 +47,6 @@ a:hover{
     width: 10%;
     background-color: #181818;
     min-height: 100vh;
-    max-height: 100vh;
     position: fixed;
     z-index: 99999;
    
@@ -120,7 +119,8 @@ i:hover{
     min-height: 100vh;
     max-height: auto;
     /* margin:0 0 0 10%; */
-    padding: 50px 20px 10px 50px;
+    /* padding: 50px 20px 10px 50px; */
+    padding: 20px 20px 10px 50px;
     /* padding: 80px 20px 10px 50px; */
 }
 .real-right{
@@ -153,6 +153,7 @@ i:hover{
     font-weight: 700;
     letter-spacing: -15px;  
 }
+
 .blast:hover,.blas:hover{
     color: #08fdd8;
 }
@@ -233,10 +234,14 @@ i:hover{
     border-radius: 10px;
 
 }
+#home{
+    min-height: 100vh;
+}
 .about{
     min-height: 100vh;
     max-height: auto;
     position: relative;
+    margin: -50px 0 0 0;
 
 }
 .bc{
@@ -249,6 +254,7 @@ i:hover{
 }
 .about-intro{
     padding: 10% 0 0 0;
+    /* margin: 10% 0 0 0; */
    
 }
 .myPort::before{

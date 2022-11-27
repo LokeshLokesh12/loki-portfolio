@@ -37,6 +37,7 @@ gsap.from('.contact-but', {
 })
 gsap.from('.blas', {
     duration: 2,
+    x:50,
     opacity:0,
     stagger:0.1,
     delay:0.2,

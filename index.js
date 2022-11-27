@@ -1,8 +1,6 @@
 // animation for i'm loki hover effect
 let intro = document.querySelector('.intro-container')
-// console.log(intro);
- 
- intro.addEventListener("mouseover",(event)=>{
+intro.addEventListener("mouseover",(event)=>{
     let target = event.target
     // console.log(event);
 
@@ -18,14 +16,8 @@ let intro = document.querySelector('.intro-container')
     }
 })
 
-// let cursor = document.querySelector("#cursor")
-// let body = document.querySelector("body")
-
-// body.addEventListener('mousemove',(e)=>{
-
-//     cursor.style.top = `${e.clientY}px`;
-//     cursor.style.left = `${e.clientX}px`;
-// })
+let bc = document.querySelector('.bc')
+bc.addEventListener('mousemove', function(e){e.stopImmediatePropagation();})
 
 
 
